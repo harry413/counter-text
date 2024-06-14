@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Text Counter</h1>
+        <textarea id="textInput" placeholder="Type your text here..." oninput="countText()"></textarea>
+        <div class="output">
+            <p>Words: <span id="wordCount">0</span></p>
+            <p>Characters: <span id="charCount">0</span></p>
+            <p>Paragraphs: <span id="paragraphCount">0</span></p>
+            <p>Numbers: <span id="numberCount">0</span></p>
+            <p>Special Characters: <span id="specialCharCount">0</span></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
